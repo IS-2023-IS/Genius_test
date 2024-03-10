@@ -27,7 +27,7 @@
   }
 
 :root{
-    --color-brand-:#819B57;
+    --color-brand:#819B57;
     --color-brand-dark:#465929;
     --color-brand-light:#CFCFBC; 
     --color-primary-light:#FAF4EA;
@@ -112,7 +112,7 @@ ul{
     display: flex;
     align-items: center;
     gap: 40px;
-}
+    }
 .header-nav{
     flex-grow: 1;
     display: flex;
@@ -376,7 +376,6 @@ color: var(--color-primary-light);
 text-decoration: none;
 }
 .address-link:hover {
- 
     color: var(--color-brand);
 }
 .address-icon{
@@ -400,13 +399,19 @@ text-decoration: none;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
 .modal{
     width: 880px;
     height: 880px;
     background-color: var(--color-primary-light);
     border-radius: 32px;
     position: relative;
-}   
+} 
+ 
 .modal-btn-close{
     position: absolute;
     top: 40px;
