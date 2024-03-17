@@ -11,6 +11,14 @@
         font-weight: 700;
     }
 
+    &__form-field{
+        margin-bottom: 24px;
+    }
+    &__button{
+        display: block;
+            margin: 0 auto 16px;
+    }
+
     &__map {
         flex-shrink: 0;
         border: none;

@@ -233,10 +233,12 @@
               </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
               <form name="contact-form" autocomplete="off">
-                <div class="form-field">
-                  <label class="form-label hidden" for="user-name">Ім’я</label>
+                <div class="contact-section__form-field input">
+                  <label class="input__label hidden" for="user-name"
+                    >Ім’я</label
+                  >
                   <input
-                    class="form-input"
+                    class="input__control"
                     type="text"
                     id="user-name"
                     name="user-name"
@@ -244,24 +246,24 @@
                   />
                 </div>
 
-                <div class="form-field">
-                  <label class="form-label hidden" for="user-tel"
+                <div class="contact-section__form-field input">
+                  <label class="input__label hidden" for="user-tel"
                     >Телефон</label
                   >
                   <input
-                    class="form-input"
+                    class="input__control"
                     type="tel"
                     id="user-tel"
                     name="user-tel"
                     placeholder="Телефон"
                   />
                 </div>
-                <div class="form-field">
-                  <label class="form-label hidden" for="user-email"
+                <div class="contact-section__form-field input">
+                  <label class="input__label hidden" for="user-email"
                     >Електронна пошта</label
                   >
                   <input
-                    class="form-input"
+                    class="input__control"
                     type="email"
                     id="user-email"
                     name="user-email"
@@ -269,12 +271,12 @@
                   />
                 </div>
 
-                <button class="button form-button" type="submit">
+                <button class="contact-section__button button" type="submit">
                   Замовити дзвінок
                 </button>
                 <p class="form-terms">
                   Натискаючи на кнопку я погоджуюсь з
-                  <a class="form-terms-link" href="#"
+                  <a class="form-terms__link" href="#"
                     >політикою конфіденційності</a
                   >
                 </p>
@@ -352,14 +354,16 @@
     </footer>
     <div class="backdrop">
       <div class="modal">
-        <button class="modal-btn-close" type="button">Close</button>
+        <button class="modal__btn-close modal-btn-close" type="button">
+          Close
+        </button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
         <form name="modal-form" autocomplete="off">
-          <div class="form-field">
+          <div class="modal__form-field input">
             <label class="form-label hidden" for="user-name">Ім’я</label>
             <input
-              class="form-input"
+              class="input__control"
               type="text"
               id="user-name"
               name="user-name"
@@ -370,10 +374,10 @@
             />
           </div>
 
-          <div class="form-field">
+          <div class="modal__form-field input">
             <label class="form-label hidden" for="user-tel">Телефон</label>
             <input
-              class="form-input"
+              class="input__control"
               type="tel"
               id="user-tel"
               name="user-tel"
@@ -382,12 +386,12 @@
               pattern="^/+[0-9]{12}"
             />
           </div>
-          <div class="form-field">
+          <div class="modal__form-field input">
             <label class="form-label hidden" for="user-email"
               >Електронна пошта</label
             >
             <input
-              class="form-input"
+              class="input__control"
               type="email"
               id="user-email"
               name="user-email"
@@ -396,12 +400,12 @@
             />
           </div>
 
-          <button class="button form-button" type="submit">
+          <button class="modal__button button" type="submit">
             Замовити дзвінок
           </button>
           <p class="form-terms">
             Натискаючи на кнопку я погоджуюсь з
-            <a class="form-terms-link" href="#">політикою конфіденційності</a>
+            <a class="form-terms__link" href="#">політикою конфіденційності</a>
           </p>
         </form>
       </div>
