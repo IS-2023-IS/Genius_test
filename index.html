@@ -38,15 +38,28 @@
               </li>
             </ul>
           </nav>
-          <button class="button modal-btn-open" type="button">
+          <button class="header__button button modal-btn-open" type="button">
             Замовити дзвінок
           </button>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="24" height="24">
+              <use href="./img/icon.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button
+              class="mobile-menu_menu-btn-close menu-btn-close"
+              type="button"
+            >
+              Close
+            </button>
+          </div>
         </div>
       </div>
     </header>
     <main>
       <section class="hero-section">
-        <h1 class="hero-title">
+        <h1 class="hero-section__title">
           <span class="text-brand-dark">Сучасна</span> пекарня
         </h1>
       </section>
@@ -64,7 +77,7 @@
           </ul>
         </div>
       </section>
-      <section class="traditions-section section" id="tradition-section">
+      <!-- <section class="traditions-section section" id="tradition-section">
         <div class="container">
           <div class="traditions-section__container">
             <div class="traditions-section__content">
@@ -95,8 +108,8 @@
             />
           </div>
         </div>
-      </section>
-      <section class="chefs-section section" id="chefs-section">
+      </section> -->
+      <!-- <section class="chefs-section section" id="chefs-section">
         <div class="container">
           <h2
             class="chefs-section__title section__title section__title--centered"
@@ -149,8 +162,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="formats-section" id="format-section">
+      </section> -->
+      <!-- <section class="formats-section" id="format-section">
         <div class="container">
           <h2
             class="formats-section__title section__title section__title--centered"
@@ -223,8 +236,8 @@
             </button>
           </div>
         </div>
-      </section>
-      <section class="contact-section section" id="contact-section">
+      </section> -->
+      <!-- <section class="contact-section section" id="contact-section">
         <div class="container">
           <div class="contact-section__container">
             <div class="contact-section__form">
@@ -294,9 +307,9 @@
             ></iframe>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-container">
           <nav class="footer-nav">
@@ -351,7 +364,7 @@
           </address>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <div class="backdrop">
       <div class="modal">
         <button class="modal__btn-close modal-btn-close" type="button">
@@ -411,5 +424,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
